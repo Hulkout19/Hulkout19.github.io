@@ -1,0 +1,22 @@
+.course-card {
+    margin: auto;
+    width: 500px;
+}
+
+.course-actions {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    
+}
+
+button{
+    cursor: pointer;
+    
+}
+
+mat-card-actions{
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+<div style="text-align: center;">
+    <h1>Stories</h1>
+</div>
+<ng-container *ngFor="let tale of story; index as i">
+
+    <div>
+        <p> </p>
+    </div>
+
+    <mat-card class="course-card">
+
+        <img mat-card-image select="story-image" [src]="tale.iconUrl" >
+
+        <mat-card-content>
+
+            <p #description >
+                {{tale.description}}
+            </p>
+        </mat-card-content>
+
+        <mat-card-actions class="course-actions">
+
+            <a [href]="tale.storyUrl"><button mat-raised-button color="primary">{{tale.title}}</button></a>
+
+        </mat-card-actions>
+
+    </mat-card>
+
+    
+</ng-container>
